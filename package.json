@@ -9,7 +9,7 @@
   },
   "scripts": {
 "start":
-"node index. js"
+"node index.js"
   },
   "author": "Darius",
   "license": "ISC",
