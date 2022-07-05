@@ -16,4 +16,14 @@ module.exports = app => {
 
     res.send(user);
   });
+
+  app.get('/api/stripe-test', async (req, res) => {
+    res.send({
+      message: "ok",
+      value: 4,
+      response: {
+        status: 200
+      }
+    });
+  });
 };
